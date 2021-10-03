@@ -43,19 +43,29 @@ h1 {
 
 /* site navigation */
 nav.sitenavigation {
-   width: 19%;
-   margin: 1em 0 0 2%;
-   padding: 2%;
-   float: left;
-   background-color: #ddd;
+   /* width: 19%; */
+   margin: 1em 1em 0;
+   /* padding: 2%; */
+   /* float: left; */
+   background-color: black;
+   text-align: center;
+}
+nav.sitenavigation p {
+   display: inline-block;
+   padding-top: 0.3em;
+   padding-bottom: 0.3em;
+}
+nav.sitenavigation p a {
+   padding: 0.2em 0.6em;
+   display: inline-block;
 }
 
 /* main content */
 article {
-   width: 69%;
-   margin: 1em 2% 1em 0;
-   padding: 1em 2% 0.5em;
-   float: right;
+   /* width: 69%; */
+   margin: 0 1em 1em;
+   padding: 1em 1em 0.5em;
+   /* float: right; */
    background-color: rgb(255,255,255);
 }
 h2, h3 {
@@ -114,7 +124,7 @@ article div.subsection p {
 footer {
    padding: 0.5em 5%;
    text-align: center;
-   clear: both;
+   /* clear: both; */
 }
 footer p {
    width: 30%;
@@ -137,6 +147,9 @@ footer p.contact3 {
    }
    body {
       max-width: 100%;
+   }
+   nav {
+      display: none;
    }
 }
 @page {
