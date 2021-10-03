@@ -41,6 +41,15 @@ h1 {
    font-weight: 900;
 }
 
+/* site navigation */
+nav.sitenavigation {
+   width: 19%;
+   margin: 1em 0 0 2%;
+   padding: 2%;
+   float: left;
+   background-color: #ddd;
+}
+
 /* main content */
 article {
    width: 69%;
